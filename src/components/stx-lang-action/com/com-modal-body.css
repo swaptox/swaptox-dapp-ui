@@ -1,0 +1,36 @@
+
+
+
+@keyframes modal-none {
+	0% {}
+	52% { clip-path: inset(100%);visibility: hidden;left: -9999px;}
+	100% { clip-path: inset(100%);visibility: hidden;left: -9999px;}
+}
+.com-modal-body{
+	position: absolute;
+	z-index: 20;
+	border-radius: 16px;
+	
+	user-select:none;
+	
+	top: 40px;/* 37px */
+	max-height: calc(100vh - 148px);
+	transform-origin: center top;
+	overflow: hidden;
+	overflow-y: auto;
+	
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 0.15s;
+	transition-property: transform, opacity;
+}
+.com-modal-close{
+	pointer-events: none;
+	opacity: 0;  transform: scale(0.85);
+	animation: modal-none 0.3s linear 1 forwards;
+	animation-fill-mode: forwards;
+}
+.com-modal-open{
+	opacity: 1;  transform: scale(1);
+}
+
+

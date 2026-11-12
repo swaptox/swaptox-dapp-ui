@@ -1,0 +1,9 @@
+patchedDependencies:
+  next-themes@0.4.6: patches/next-themes@0.4.6.patch
+
+allowBuilds:
+  '@parcel/watcher': false
+  '@reown/appkit': false
+  '@swc/core': false
+  sharp: false
+  unrs-resolver: false

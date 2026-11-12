@@ -1,0 +1,59 @@
+
+.stx-icon-close {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 26px;
+	min-width: 26px;
+	max-width: 26px;
+	height: 26px;
+	min-height: 26px;
+	max-height: 26px;
+
+	border-radius: 8px;
+	cursor: pointer;
+
+	color: var(--color-text-base, #111);
+	fill: var(--color-text-base, #111);
+
+	box-shadow: 0 0 0 1px var(--icon-bg-border-color, #ececec);
+	background-color: var(--icon-bg-close, #fff);
+
+	transition:
+		box-shadow .3s cubic-bezier(.4, 0, .2, 1),
+		border-color .3s cubic-bezier(.4, 0, .2, 1),
+		background-color .3s cubic-bezier(.4, 0, .2, 1),
+		color .3s cubic-bezier(.4, 0, .2, 1);
+		
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+}
+
+.stx-icon-close[data-size="default"] {
+	width: 26px;
+	min-width: 26px;
+	max-width: 26px;
+	height: 26px;
+	min-height: 26px;
+	max-height: 26px;
+	border-radius: 8px;
+}
+
+.stx-icon-close:hover {
+	box-shadow: 0 0 0 2px #02b6a680;
+	background-color: #02b6a60d;
+	color: #00a99a;
+	fill: #00a99a;
+}
+
+.stx-icon-close-icon {
+	width: 10px;
+	height: 10px;
+	fill: inherit;
+}
+
+.stx-icon-close[data-size="default"] .stx-icon-close-icon {
+	width: 10px;
+	height: 10px;
+}

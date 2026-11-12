@@ -1,0 +1,221 @@
+
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+@plugin "tailwind-scrollbar-hide";
+
+:root {
+	--color-bg-base: #ffffff;
+	--color-bg-primary: #f0ffff;
+	--color-bg-modal: #fff;
+	--color-bg-theme: #02bfae;
+	
+	--color-bg-dark-base: #fff;
+    --color-bg-dark-primary: #f0ffff;
+	
+	--color-theme: #02bfae;
+	
+    --color-text-base: #1e2939;
+	--color-text-primary: #02b6a6;
+	--color-text-dark: #F0FFFD;
+	
+	--color-border-base: #02b6a6;
+	--color-border-primary: #82fff25e;
+	--color-border-hover: #02b6a680;
+	--color-border-divider-line: #02b6a680;
+	--color-border-modal: #ececec;
+	
+	--color-border-theme-color: #6ad6cd75;
+	
+	
+	--color-border-select: #02b6a680;
+	--color-bg-select: #f0ffff;
+	
+	--color-element-hover-bg: #fdfdfd;
+	
+	--color-logo-bg: #ffffff;
+	--color-logo-eye: #02b6a6;
+	
+	--not-found-icon-filter: invert(0%) hue-rotate(246deg);
+	
+	
+	--icon-bg-close: #fff;
+	--icon-bg-border-color: #ececec;
+	
+	
+	--theme-card-border-width: 1px;
+	--theme-card-border-color: #6ad6cd;
+	--theme-card-border-bottom-width: 4px;
+	
+	
+	--button-disabled-primary: #55bfb5;
+	
+	
+}
+.dark {
+    --color-bg-base: #0f0f0f;
+	--color-bg-primary: #1c1c1c;
+	--color-bg-modal: #313131;
+	--color-bg-theme: #02bfae;
+	
+	--color-bg-dark-base: #1c1c1c;
+	--color-bg-dark-primary: #252525;
+	
+	--color-theme: #02bfae;
+	
+    --color-text-base: #ffffff;
+	--color-text-primary: #02b6a6;
+	--color-text-dark: #1A2B2A;
+	
+	--color-border-base: #02b6a6;
+	--color-border-primary: #383838;
+	--color-border-hover: #02b6a680;
+	--color-border-divider-line: #222222;
+	--color-border-modal: #3a3a3a;
+	
+	--color-border-theme-color: #202020;
+	
+	
+	--color-border-select: #02b6a680;
+	--color-bg-select: #35ffed12;
+	
+	
+	--color-element-hover-bg: #181818;
+	
+	
+	--color-logo-bg: #2b5a37;
+	--color-logo-eye: #76ff3d;
+	
+	
+	--not-found-icon-filter: invert(90%) hue-rotate(150deg);
+	
+	
+	--icon-bg-close: #313131;
+	--icon-bg-border-color: #444;
+	
+	
+	--theme-card-border-width: 1px;
+	--theme-card-border-color: #0f0f0f;
+	--theme-card-border-bottom-width: 1px;
+	
+	--button-disabled-primary: #158177;
+}
+
+
+
+body {
+    background: var(--color-bg-base);
+    color: var(--color-text-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	/* transition: background 0.2s ease; */
+}
+
+@layer base {
+	:root {
+	    /* 核心操作：把 Tailwind 默认找的变量，直接赋值为你的 Inter 变量 */
+	    --font-sans: var(--font-inter);
+	}
+	body {
+		/* 让 Inter 的数字像表格一样对齐，防止价格跳动 */
+		font-feature-settings: "cv02", "cv05", "tnum";
+	}
+}
+
+input, button, textarea, select {
+    font-family: inherit;
+}
+
+
+.page-width-body{
+	max-width: 1200px;/* 1360px */
+	margin: auto;
+}
+
+.page-main-size {
+	width: 100%;
+	min-height: calc(100dvh - 60px);
+}
+
+
+
+.stx-header-element-hover{
+	transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+	transition-duration: 0.3s;
+	transition-property: box-shadow, border;
+}
+.stx-header-element-hover:hover {
+	box-shadow: 0 0 0 1px var(--color-border-hover);
+	border: 1px solid var(--color-border-hover);
+	background-color: var(--color-element-hover-bg);
+}
+.stx-header-element-focus {
+	box-shadow: 0 0 0 1px var(--color-border-hover);
+	border: 1px solid var(--color-border-hover);
+	background-color: var(--color-element-hover-bg);
+}
+
+
+
+.stx-theme-button{
+	background-color: var(--color-bg-theme);
+	color: var(--color-text-dark);
+	filter: brightness(1);
+	
+	/* transform:scale(1);transform-origin: center center; */
+	
+	transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+	transition-duration: 0.3s;
+	transition-property: background-color, filter;
+}
+.stx-theme-button:hover{
+	background-color: #28c1b3;
+	filter: brightness(1.05);
+	/* transform:scale(1.02); */
+}
+.stx-theme-button:active{
+	background-color: #02ab9c;
+	filter: brightness(0.96);
+}
+
+
+.stx-theme-button-disabled{
+	background-color: var(--button-disabled-primary);
+	opacity: 0.8;
+	pointer-events:none;
+}
+
+
+
+
+
+
+
+
+.app-card-theme-style {
+	background-color: var(--color-bg-primary);
+	border-radius: 18px;
+	border-right-style: solid;
+	border-right-width: var(--theme-card-border-width);
+	border-right-color: var(--theme-card-border-color);
+	border-left-style: solid;
+	border-left-width: var(--theme-card-border-width);
+	border-left-color: var(--theme-card-border-color);
+	border-bottom-style: solid;
+	border-bottom-width: var(--theme-card-border-bottom-width);
+	border-bottom-color: var(--theme-card-border-color);
+	border-top-style: solid;
+	border-top-width: var(--theme-card-border-width);
+	border-top-color: var(--theme-card-border-color);
+}
+.app-card-title {
+	font-size: 17px;
+	color: var(--color-text-base, #111);
+	line-height: 32px;
+	user-select: none;
+	font-family: var(--font-sans);
+}
+
+
+
+
+

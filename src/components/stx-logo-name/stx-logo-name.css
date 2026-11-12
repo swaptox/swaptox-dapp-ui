@@ -1,0 +1,33 @@
+.stx-logo-name {
+	height: 40px;
+	max-height: 40px;
+	overflow: hidden;
+	min-width: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 6px;
+	cursor: pointer;
+}
+.app-name-bodys{
+	transition-timing-function: cubic-bezier(.65, 0, .35, 1);
+	transition-duration: 0.4s;
+	transition-property: transform;
+	transform-origin: center center;
+	padding-right: 10px;
+	height: 40px;
+	max-height: 40px;
+}
+.stx-logo-name:hover > .app-name-bodys{
+	transform:scale(1.1);
+}
+
+
+
+.hide-view-id898612{}
+@media (max-width: 520px) {
+	.hide-view-id898612{
+		display: none;
+	}
+}

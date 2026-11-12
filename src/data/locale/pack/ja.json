@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - 次世代DEXアグリゲーター",
+		"description": "SwaptoXは、複数の流動性プールを経由した最適な取引ルートを見つける、次世代の分散型取引所アグリゲーターです。",
+		"keywords": "SwaptoX, DEX, アグリゲーター, DeFi, マルチパス取引, 最適な交換レート, 分散型取引所, 暗号資産取引"
+	},
+	"Referral": {
+		"my-refferal-link": "自分の紹介リンク",
+		"copy-link": "リンクをコピー",
+		"long-link": "長いリンク",
+		"short-link": "短いリンク",
+		"number-invited-friends": "招待した友達の数",
+		"invite-friends-permanently": "友達を招待して取引してもらうと、その手数料の30%〜50%を継続して獲得できます。",
+		"note-current-swaptorx-promotion": "注：現在のSwaptoXキャンペーン期間中は取引手数料が無料のため、手数料の分配はありません。ただし、招待した友達はあなたに永久に紐付けられます。",
+		"connect-wallet-get-invitation-link": "ウォレットを接続して紹介リンクを取得",
+		"both-long-and-short-links-valid": "長いリンクと短いリンクはどちらも永久に有効です"
+	},
+	"Components": {
+		"switchNetwork": "ネットワークを切り替える",
+		"connectWallet": "ウォレットを接続",
+		"swap": "交換",
+		"referral": "🔥紹介",
+		"copied": "コピーしました"
+	}
+}

@@ -1,0 +1,8 @@
+
+
+.stx-account-before-hide-id1080{}
+@media (max-width: 960px) {
+	.stx-account-before-hide-id1080{
+		display: none;
+	}
+}

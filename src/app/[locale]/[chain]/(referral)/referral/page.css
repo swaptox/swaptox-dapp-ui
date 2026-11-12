@@ -1,0 +1,28 @@
+
+
+
+
+.referral-page-card-body {
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 600px;
+	padding: 30px 15px;
+}
+
+
+
+@media (max-width: 960px) {
+	.referral-page-card-body {
+		padding: 15px 15px;
+	}
+}
+
+@media (max-width: 520px) {
+	.referral-page-card-body {
+		padding: 0px 0px;
+	}
+}
+
+
+
+

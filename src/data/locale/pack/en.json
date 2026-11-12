@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - Swap Aggregator & DEX",
+		"description": "SwaptoX is a next-gen decentralized exchange aggregator and DEX. Find the best swap rates with multi-path trading across various liquidity pools.",
+		"keywords": "SwaptoX, DEX, Aggregator, DeFi, Multi-path Trading, Best Swap Rates, Decentralized Exchange, Crypto Trading"
+	},
+	"Referral": {
+		"my-refferal-link": "My refferal link",
+		"copy-link": "Copy link",
+		"long-link": "Long Link",
+		"short-link": "Short Link",
+		"number-invited-friends": "Number of invited friends",
+		"invite-friends-permanently": "Invite friends to trade and earn 30%~50% of their fees permanently.",
+		"note-current-swaptorx-promotion": "Note: During the current SwaptoX promotion, trading is free and no fee-sharing applies. However, invited friends will be permanently bound to you.",
+		"connect-wallet-get-invitation-link": "Connect wallet to get invitation link",
+		"both-long-and-short-links-valid": "Both long and short links are permanently valid"
+	},
+	"Components": {
+		"switchNetwork": "Switch Network",
+		"connectWallet": "Connect Wallet",
+		"swap": "Swap",
+		"referral": "🔥Referral",
+		"copied": "Copied"
+	}
+}

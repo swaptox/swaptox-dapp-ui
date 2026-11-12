@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - Agregator DEX Generasi Berikutnya",
+		"description": "SwaptoX adalah agregator bursa terdesentralisasi generasi berikutnya yang menemukan rute transaksi terbaik melalui berbagai pool likuiditas.",
+		"keywords": "SwaptoX, DEX, agregator, DeFi, transaksi multi-rute, nilai tukar terbaik, bursa terdesentralisasi, perdagangan kripto"
+	},
+	"Referral": {
+		"my-refferal-link": "Tautan referral saya",
+		"copy-link": "Salin tautan",
+		"long-link": "Tautan panjang",
+		"short-link": "Tautan pendek",
+		"number-invited-friends": "Jumlah teman yang diundang",
+		"invite-friends-permanently": "Ajak teman untuk bertransaksi dan dapatkan 30%~50% dari biaya mereka secara permanen.",
+		"note-current-swaptorx-promotion": "Catatan: Selama promosi SwaptoX saat ini, transaksi bebas biaya sehingga tidak ada pembagian biaya. Namun, teman yang Anda undang akan terhubung dengan Anda secara permanen.",
+		"connect-wallet-get-invitation-link": "Hubungkan dompet untuk mendapatkan tautan referral",
+		"both-long-and-short-links-valid": "Tautan panjang dan pendek sama-sama berlaku permanen"
+	},
+	"Components": {
+		"switchNetwork": "Ganti jaringan",
+		"connectWallet": "Hubungkan dompet",
+		"swap": "Tukar",
+		"referral": "Undang teman",
+		"copied": "Tersalin"
+	}
+}

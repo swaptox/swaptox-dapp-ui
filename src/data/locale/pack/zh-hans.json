@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - 下一代聚合交易协议",
+		"description": "SwaptoX 是领先的 DEX 聚合器，为您在多条链上寻找最优兑换汇率。",
+		"keywords": "去中心化交易所, 聚合器, DeFi, 智能路由, Rootstock, base, DEX"
+	},
+	"Referral": {
+		"my-refferal-link": "我的邀请链接",
+		"copy-link": "复制链接",
+		"long-link": "长链接",
+		"short-link": "短链接",
+		"number-invited-friends": "已邀请好友数量",
+		"invite-friends-permanently": "邀请好友交易永久获得30%~50%手续费分成。",
+		"note-current-swaptorx-promotion": "注：目前 SwaptoX 推广期间免费交易，无手续费分成，但好友将被永久绑定。",
+		"connect-wallet-get-invitation-link": "链接钱包获取邀请链接",
+		"both-long-and-short-links-valid": "长链接与短链接都是永久有效"
+	},
+	"Components": {
+		"switchNetwork": "切换网络",
+		"connectWallet": "连接钱包",
+		"swap": "闪兑",
+		"referral": "🔥邀请好友",
+		"copied": "复制成功"
+	}
+}

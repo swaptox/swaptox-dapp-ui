@@ -1,0 +1,35 @@
+
+
+.com-top-nav-menu-icon-size {
+	height: 40px;
+	width: 30px;
+	display: none;
+}
+
+
+.com-top-nav-menu-icon-pointer {
+	cursor: pointer;
+}
+.com-top-nav-menu-icon-pointer:hover {
+	opacity: 0.7;
+}
+
+.show-view-nav-89861 {
+	padding-left: 3vw;
+	display: flex;
+}
+
+/* 跟随菜单数量修改 */
+
+@media (max-width: 660px) {
+	.com-top-nav-menu-icon-size {
+		display: flex;
+	}
+	.show-view-nav-89861 {
+		display: none;
+	}
+}
+
+
+
+

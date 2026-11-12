@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - Agregador DEX de nova geração",
+		"description": "SwaptoX é um agregador de exchanges descentralizadas de nova geração que encontra as melhores rotas de negociação entre diversos pools de liquidez.",
+		"keywords": "SwaptoX, DEX, agregador, DeFi, negociação por múltiplas rotas, melhores taxas de swap, exchange descentralizada, negociação de criptoativos"
+	},
+	"Referral": {
+		"my-refferal-link": "Meu link de indicação",
+		"copy-link": "Copiar link",
+		"long-link": "Link longo",
+		"short-link": "Link curto",
+		"number-invited-friends": "Número de amigos convidados",
+		"invite-friends-permanently": "Convide amigos para negociar e receba para sempre de 30% a 50% das taxas que eles pagarem.",
+		"note-current-swaptorx-promotion": "Observação: durante a promoção atual da SwaptoX, as negociações são gratuitas e não há divisão de taxas. No entanto, os amigos convidados ficarão vinculados a você permanentemente.",
+		"connect-wallet-get-invitation-link": "Conecte a carteira para obter seu link de indicação",
+		"both-long-and-short-links-valid": "Os links longo e curto são válidos permanentemente"
+	},
+	"Components": {
+		"switchNetwork": "Trocar rede",
+		"connectWallet": "Conectar carteira",
+		"swap": "Trocar",
+		"referral": "🔥Indicar amigos",
+		"copied": "Copiado"
+	}
+}

@@ -1,0 +1,29 @@
+.pagesd-dfs{
+	padding: 0 15px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.com-flex-con2323{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--color-bg-base);
+	border: 1px solid var(--color-border-theme-color);
+	border-radius: 18px;
+	padding-right: 18px;
+	padding-left: 12px;
+}
+.shuomings-p1{
+	font-size: 14px;
+	color: #999;
+	word-break: break-all;
+}
+@media (max-width: 520px) {
+	.pagesd-dfs {
+		border-radius: 0px;
+		border-right-width:0px;
+		border-left-width:0px;
+		border-top-width:0px;
+	}
+}

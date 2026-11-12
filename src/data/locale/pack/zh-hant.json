@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - 新一代 DEX 聚合器",
+		"description": "SwaptoX 是新一代去中心化交易所聚合器，透過多條流動性路徑，為您尋找最佳兌換匯率。",
+		"keywords": "SwaptoX, DEX, 聚合器, DeFi, 多路徑交易, 最佳兌換匯率, 去中心化交易所, 加密貨幣交易"
+	},
+	"Referral": {
+		"my-refferal-link": "我的推薦連結",
+		"copy-link": "複製連結",
+		"long-link": "長連結",
+		"short-link": "短連結",
+		"number-invited-friends": "已邀請好友數量",
+		"invite-friends-permanently": "邀請好友交易，即可永久獲得其手續費的 30%～50% 分潤。",
+		"note-current-swaptorx-promotion": "注意：目前 SwaptoX 推廣期間交易免手續費，不適用手續費分潤。不過，受邀好友仍會永久綁定至您的帳戶。",
+		"connect-wallet-get-invitation-link": "連接錢包以取得推薦連結",
+		"both-long-and-short-links-valid": "長連結和短連結皆永久有效"
+	},
+	"Components": {
+		"switchNetwork": "切換網路",
+		"connectWallet": "連接錢包",
+		"swap": "兌換",
+		"referral": "🔥邀請好友",
+		"copied": "已複製"
+	}
+}

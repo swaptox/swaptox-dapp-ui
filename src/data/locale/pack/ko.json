@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - 차세대 DEX 애그리게이터",
+		"description": "SwaptoX는 여러 유동성 풀을 통한 최적의 거래 경로를 찾아 주는 차세대 탈중앙화 거래소 애그리게이터입니다.",
+		"keywords": "SwaptoX, DEX, 애그리게이터, DeFi, 멀티패스 거래, 최적의 스왑 수수료, 탈중앙화 거래소, 암호화폐 거래"
+	},
+	"Referral": {
+		"my-refferal-link": "내 추천 링크",
+		"copy-link": "링크 복사",
+		"long-link": "긴 링크",
+		"short-link": "짧은 링크",
+		"number-invited-friends": "초대한 친구 수",
+		"invite-friends-permanently": "친구를 초대해 거래하도록 하면 친구가 낸 수수료의 30%~50%를 계속 받을 수 있습니다.",
+		"note-current-swaptorx-promotion": "참고: 현재 SwaptoX 프로모션 기간에는 거래 수수료가 무료이므로 수수료 수익 배분이 적용되지 않습니다. 다만 초대한 친구는 회원님에게 영구적으로 연결됩니다.",
+		"connect-wallet-get-invitation-link": "지갑을 연결해 추천 링크 받기",
+		"both-long-and-short-links-valid": "긴 링크와 짧은 링크 모두 영구적으로 유효합니다"
+	},
+	"Components": {
+		"switchNetwork": "네트워크 전환",
+		"connectWallet": "지갑 연결",
+		"swap": "스왑",
+		"referral": "🔥친구 초대",
+		"copied": "복사 완료"
+	}
+}

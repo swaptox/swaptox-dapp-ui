@@ -1,0 +1,25 @@
+{
+	"Metadata": {
+		"title": "SwaptoX - Bộ tổng hợp DEX thế hệ mới",
+		"description": "SwaptoX là bộ tổng hợp sàn giao dịch phi tập trung thế hệ mới, tìm các lộ trình giao dịch tối ưu qua nhiều bể thanh khoản.",
+		"keywords": "SwaptoX, DEX, bộ tổng hợp, DeFi, giao dịch đa tuyến, tỷ giá hoán đổi tốt nhất, sàn giao dịch phi tập trung, giao dịch tiền mã hóa"
+	},
+	"Referral": {
+		"my-refferal-link": "Liên kết giới thiệu của tôi",
+		"copy-link": "Sao chép liên kết",
+		"long-link": "Liên kết dài",
+		"short-link": "Liên kết ngắn",
+		"number-invited-friends": "Số bạn bè đã mời",
+		"invite-friends-permanently": "Mời bạn bè giao dịch để nhận vĩnh viễn 30%–50% phí giao dịch của họ.",
+		"note-current-swaptorx-promotion": "Lưu ý: Trong chương trình khuyến mãi hiện tại của SwaptoX, giao dịch được miễn phí nên không áp dụng chia sẻ phí. Tuy nhiên, bạn bè được mời sẽ luôn được liên kết với bạn.",
+		"connect-wallet-get-invitation-link": "Kết nối ví để nhận liên kết mời",
+		"both-long-and-short-links-valid": "Cả liên kết dài và liên kết ngắn đều có hiệu lực vĩnh viễn"
+	},
+	"Components": {
+		"switchNetwork": "Chuyển mạng",
+		"connectWallet": "Kết nối ví",
+		"swap": "Hoán đổi",
+		"referral": "🔥Mời bạn bè",
+		"copied": "Đã sao chép"
+	}
+}

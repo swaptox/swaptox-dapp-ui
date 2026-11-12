@@ -1,0 +1,26 @@
+
+.stx-langactive-icon-layout{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.stx-lang-action{}
+.stx-langactive-hide-id1130{}
+@media (max-width: 960px) {
+	.stx-langactive-hide-id1130{
+		display: none;
+	}
+	.stx-lang-action{
+		width: calc(var(--spacing) * 8);
+		border-radius: var(--radius-xl);
+		padding: 0px 0px;
+		justify-content: center;
+	}
+}

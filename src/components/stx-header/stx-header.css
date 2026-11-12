@@ -1,0 +1,7 @@
+
+
+
+.stxhead-gap-3{
+	gap: calc(var(--spacing) * 3);
+	flex-wrap: nowrap;
+}
