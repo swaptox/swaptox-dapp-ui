@@ -25,7 +25,8 @@ export default function ComWalletAccount({account, logo}: StxAccountProps) {
 	
 	const onTapAccount = function(){
 		//window?.$swaptoxWidget?.$el?.openWallet();
-		document.querySelector('swaptox-wallet')?.open();
+		//document.querySelector('swaptox-wallet')?.open();
+		(document.querySelector('swaptox-wallet') as any)?.open();
 	};
 	
 	

@@ -1,11 +1,18 @@
 
 import './StxIconClose.css';
 
+interface StxIconCloseProps {
+  size?: string;
+  className?: string;
+  onClose?: () => void; // 声明 onClose 是一个无参数、无返回值的函数
+}
+
+
 export default function StxIconClose({
 	size = 'default',
 	onClose,
 	className = '',
-}) {
+}: StxIconCloseProps) {
 	const handleClick = () => {
 		onClose?.();
 	};

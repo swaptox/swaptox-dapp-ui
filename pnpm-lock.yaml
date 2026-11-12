@@ -23,8 +23,8 @@ importers:
         specifier: 1.0.5
         version: 1.0.5(@coinbase/wallet-sdk@4.4.0(typescript@5.9.3)(zod@3.25.76))(@walletconnect/ethereum-provider@2.26.0(@types/react@19.2.14)(react@19.2.4)(typescript@5.9.3)(zod@3.25.76))(qr-code-styling@1.9.2)(viem@2.57.17(typescript@5.9.3)(zod@3.25.76))
       '@swaptox/widget':
-        specifier: 1.0.5
-        version: 1.0.5
+        specifier: 1.0.6
+        version: 1.0.6
       '@walletconnect/ethereum-provider':
         specifier: 2.26.0
         version: 2.26.0(@types/react@19.2.14)(react@19.2.4)(typescript@5.9.3)(zod@3.25.76)
@@ -1122,8 +1122,8 @@ packages:
   '@swaptox/connect-ui@1.0.5':
     resolution: {integrity: sha512-VvXemcqktMb48LXZeV+WmN0aVT+hSFGn3PhvxvG22jk1gTxEZmLDe1rvl+lYQEezA+mgGU/EO4xUSaL8mxAPGw==}
 
-  '@swaptox/widget@1.0.5':
-    resolution: {integrity: sha512-kMzqbOGBuzeJM5oZNWpWeMLVzTXKfAJkPpHkAHzkVK9wqw5m93FqVwqXrmu/TTN7fPagMie7E0KrteuSvWjS8w==}
+  '@swaptox/widget@1.0.6':
+    resolution: {integrity: sha512-5PrD9RmUqgWSpbUgOZx55kL845gbjo+HyFWRArj+F1wLNN2B7pDub5yCTVZji9/ScZQoqkn2v6bdS1mm6rtngg==}
 
   '@swc/core-darwin-arm64@1.15.24':
     resolution: {integrity: sha512-uM5ZGfFXjtvtJ+fe448PVBEbn/CSxS3UAyLj3O9xOqKIWy3S6hPTXSPbszxkSsGDYKi+YFhzAsR4r/eXLxEQ0g==}
@@ -5002,7 +5002,7 @@ snapshots:
       - qr-code-styling
       - viem
 
-  '@swaptox/widget@1.0.5':
+  '@swaptox/widget@1.0.6':
     dependencies:
       lit: 3.2.1
 

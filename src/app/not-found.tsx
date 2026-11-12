@@ -35,9 +35,11 @@ export default async function RootNotFound() {
 
 /*
 
-git remote add origin https://github.com/swaptox/swaptox-dapp-ui.git
-git branch -M main
-git push -u origin main
 
 
+git add .
+git commit -m "Update documentation"
+git push
+
+git push origin main
 */
